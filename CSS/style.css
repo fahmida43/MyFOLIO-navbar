@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav bar starts here */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+    align-self: center;
+}
+
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: #fff;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    padding: 26px 25px;
+}
+nav .menu ul li:hover a{
+    color: yellow;
+    transition: 0.5s;
+    font-size: 12.4px;
+}
+/*nav bar ends here */
+
+/* banner starts here */
+.banner{
+    background-image: url(../img/MYFOLIO-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+/*banner ends here */
